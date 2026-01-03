@@ -19,7 +19,7 @@ all:: latest lint
 endif # SUMMARY_REPORT
 endif # TRACE_FILE
 
-latest:: txt html
+latest:: txt html pdf
 
 MAKEFLAGS += --no-builtin-rules --no-builtin-variables --no-print-directory
 .PHONY: all latest

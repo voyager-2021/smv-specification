@@ -22,3 +22,5 @@ draft-voyager-svm-specification.xml
 package-lock.json
 report.xml
 !requirements.txt
+install
+run

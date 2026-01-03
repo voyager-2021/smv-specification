@@ -2,9 +2,6 @@
 # All are assumed to be on the path, but you can override these
 # in the environment, or command line.
 
-# Use Julian Reschke's XSLT
-USE_XSLT=true
-
 # xml2rfc (when running locally, this is installed in a virtualenv for you)
 XML2RFC_RFC_BASE_URL := https://www.rfc-editor.org/rfc/
 XML2RFC_ID_BASE_URL := https://datatracker.ietf.org/doc/html/

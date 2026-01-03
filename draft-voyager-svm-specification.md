@@ -1,5 +1,6 @@
 ---
-title: Secure Mobile Vault Format (SMVF)
+title: Secure Mobile Vault Format
+abbrev: SMVF
 docname: draft-voyager-svm-specification-latest
 category: info
 
