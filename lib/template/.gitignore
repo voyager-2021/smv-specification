@@ -9,15 +9,14 @@
 /*-[0-9][0-9].xml
 /.*.mk
 /.gems/
-/.idea/
 /.refcache
 /.venv/
 /.vscode/
+/.idea/
 /node_modules/
 /versioned/
 Gemfile.lock
 archive.json
-draft-voyager-svm-specification.xml
 package-lock.json
 report.xml
 !requirements.txt
