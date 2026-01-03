@@ -23,10 +23,6 @@ jobs:
         fetch-depth: 0
         fetch-tags: true
 
-    # See https://github.com/actions/checkout/issues/290
-    - name: "Get Tag Annotations"
-      run: git fetch -f origin ${{ github.ref }}:${{ github.ref }}
-
     - name: "Setup"
       id: setup
       run: date -u "+date=%FT%T" >>"$GITHUB_OUTPUT"
