@@ -15,10 +15,22 @@ RUN apt-get update && \
     xsltproc \
     enscript \
     lpr \
-    aps-filter \
+    apsfilter \
     html2ps \
     groff \
-    imagemagick
+    imagemagick \
+    nano \
+    vim \
+    curl \
+    wget \
+    man-db \
+    mandoc
+
+RUN export GEM_HOME=/workspace/lib/.gems
+
+RUN export GEM_PATH="$GEM_HOME"
+
+RUN export PATH="$GEM_HOME/bin:$PATH"
 
 RUN gem install bundler
 
