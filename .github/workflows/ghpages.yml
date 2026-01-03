@@ -28,9 +28,6 @@ jobs:
       id: setup
       run: date -u "+date=%FT%T" >>"$GITHUB_OUTPUT"
 
-    - name: "Install dependencies"
-      run: sudo apt-get update && sudo apt-get install libxml2-utils eslint ghostscript enscript -y
-
     - name: "Caching"
       uses: actions/cache@v4
       with:
@@ -47,6 +44,12 @@ jobs:
       uses: martinthomson/i-d-template@v1
       with:
         token: ${{ github.token }}
+        make: latest
+        apt: |
+          ghostscript
+          enscript
+          libxml2-utils
+          eslint
 
     - name: "Update GitHub Pages"
       uses: martinthomson/i-d-template@v1
