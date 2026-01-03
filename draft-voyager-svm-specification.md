@@ -1,12 +1,10 @@
 ---
 title: Secure Mobile Vault Format (SMVF)
-abbrev: SMVF
 docname: draft-voyager-svm-specification-latest
 category: info
 
 ipr: trust200902
 area: General
-workgroup: smv
 keyword: Internet-Draft
 
 stand_alone: yes
@@ -16,7 +14,6 @@ pi: [toc, sortrefs, symrefs]
 author:
   -
     name: Ohto Keskilammi
-    organization: smv
     email: voyager-2019@outlook.com
 
 normative:

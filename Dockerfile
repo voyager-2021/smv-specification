@@ -11,7 +11,14 @@ RUN apt-get update && \
     gem \
     ghostscript \
     libxml2-utils \
-    eslint
+    eslint \
+    xsltproc \
+    enscript \
+    lpr \
+    aps-filter \
+    html2ps \
+    groff \
+    imagemagick
 
 RUN gem install bundler
 
